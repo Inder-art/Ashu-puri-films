@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ashu Puri Films</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Ashu Puri Films</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="videos.html">Videos</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section class="intro">
+      <h2>Welcome to Ashu Puri Films</h2>
+      <p>Capturing life through lens — photography and videography from Ashu Puri.</p>
+    </section>
+  </main>
+  <footer>&copy; 2025 Ashu Puri Films</footer>
+</body>
+</html>
+
+
+<main>
+  <h2>Photo Gallery</h2>
+  <div class="gallery">
+    <img src="assets/images/photo1.jpg" alt="Photo 1" />
+    <img src="assets/images/photo2.jpg" alt="Photo 2" />
+    <!-- Add more photos here -->
+  </div>
+</main>
+
+<main>
+  <h2>Video Gallery</h2>
+  <div class="videos">
+    <iframe src="https://www.youtube.com/embed/VIDEO_ID1" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/VIDEO_ID2" frameborder="0" allowfullscreen></iframe>
+    <!-- Add more videos -->
+  </div>
+</main>
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #111;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+nav a {
+  margin: 0 1em;
+  color: #fff;
+  text-decoration: none;
+}
+main {
+  padding: 2em;
+}
+.gallery img {
+  width: 200px;
+  margin: 10px;
+  border-radius: 8px;
+}
+.videos iframe {
+  width: 100%;
+  max-width: 500px;
+  margin: 10px 0;
+}
+footer {
+  text-align: center;
+  padding: 1em;
+  background: #eee;
+}
